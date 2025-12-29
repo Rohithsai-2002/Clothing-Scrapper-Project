@@ -22,4 +22,4 @@ python -m src.main
 
 4. Add more stores by providing `base_url`, `listings_path`, and CSS selectors in `config.yaml`.
 
-A Project by Rohith
+A Project by Rohith Sai Guttikonda
