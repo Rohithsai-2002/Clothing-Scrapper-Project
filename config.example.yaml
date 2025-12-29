@@ -1,0 +1,24 @@
+smtp:
+  host: smtp.gmail.com
+  port: 587
+  username: your-email@gmail.com
+  password: your-app-password-here
+  from: your-email@gmail.com
+  to:
+    - recipient@gmail.com
+
+filters:
+  shirt_size: XXL
+  trouser_size: '40'
+
+stores:
+  - name: Mock Test Store
+    module: src.stores.mock_store
+    base_url: https://example-store.test
+    listings_path: /clothing
+    selectors:
+      item: .product
+      title: .product-title
+      price: .price
+      original_price: .original-price
+      sizes: .sizes
